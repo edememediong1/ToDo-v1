@@ -1,0 +1,53 @@
+.to-do-list{
+    
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+h1{
+    font-size: 4rem;
+}
+
+button{
+    padding: 10px 20px;
+    font-size: 1.5rem;
+    font-weight: bold;
+    border: none;
+    color: #ffff;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.5 ease;
+}
+
+.add-button{
+    background-color: hsl(125,47%,54%);
+}
+
+.add-button:hover{
+    background-color: hsl(125, 75%, 34%) ;
+}
+
+.delete-task{
+    background-color: hsl(0, 93%, 57%);
+}
+
+.delete-task:hover{
+    background-color: hsl(0, 91%, 28%) ;
+}
+
+.task-up{
+    background-color: hsl(206, 94%, 69%);
+}
+
+.task-up:hover{
+    background-color: hsl(231, 83%, 56%) ;
+}
+
+.task-down{
+    background-color: hsl(206, 94%, 69%);
+}
+
+.task-down:hover{
+    background-color: hsl(231, 83%, 56%) ;
+}
+
