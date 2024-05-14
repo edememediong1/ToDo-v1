@@ -9,7 +9,7 @@ h1{
 }
 
 button{
-    padding: 10px 20px;
+    padding: 13px 20px;
     font-size: 1.5rem;
     font-weight: bold;
     border: none;
@@ -51,3 +51,38 @@ button{
     background-color: hsl(231, 83%, 56%) ;
 }
 
+input[type='text'] {
+    font-size: 1.6rem;
+    padding: 10px;
+    border: 2px solid hsla(206, 21%, 65%, 0.3)
+}
+
+ol{
+    padding: 0;
+}
+
+li{
+    margin: auto;
+    font-size: 2rem;
+    font-weight: bold;
+    padding: 15px;
+    margin-bottom: 10px;
+    background-color: rgba(240, 248, 255, 0.826);
+    border: 3px solid hsla(0, 5%, 57%, 0.309);
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    width: 80%;
+    
+    
+}
+
+.text{
+    flex: 1;
+}
+
+.task-up, .task-down{
+    padding: 8px 12px;
+    font-size: 1.4rem;
+    margin-left: 10px;
+}

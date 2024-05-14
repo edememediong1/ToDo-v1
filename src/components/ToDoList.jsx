@@ -9,7 +9,11 @@ export default function ToDoLIst(){
     }
 
     function addTask(){
-        setTasks(tasks => [...tasks, newTask])
+        if (newTask.trim() != ""){
+            setTasks(t => [...t, newTask])
+            setNewTask("") 
+        }
+        
     }
 
     function deleteTask(index){
@@ -28,7 +32,7 @@ export default function ToDoLIst(){
         <article className="to-do-list ">
             <h1>To Do List</h1>
             <section>
-                <input type="text"  placeholder="Enter a task..."  onChange={handleInputChange}/>
+                <input type="text" value={newTask} placeholder="Enter a task..."  onChange={handleInputChange}/>
 
                 <button className="add-button" onClick={addTask}>Add Task</button>
 
