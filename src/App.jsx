@@ -1,11 +1,11 @@
-
+import ToDoLIst from "./components/ToDoList"
 
 function App() {
   
 
   return (
     <>
-
+      <ToDoLIst/>
     </>
   )
 }
